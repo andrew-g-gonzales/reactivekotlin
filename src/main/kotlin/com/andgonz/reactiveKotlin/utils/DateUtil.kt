@@ -1,18 +1,21 @@
 package com.andgonz.reactiveKotlin.utils
 
+
 import java.text.SimpleDateFormat
-import java.time.ZoneId
-import java.time.format.DateTimeFormatter
 import java.util.*
 
 class DateUtil {
     companion object {
         private val dateFormated = SimpleDateFormat("yyyy-MM-dd")
+        private val dayOfWkFmt = SimpleDateFormat("EEEE", Locale.ENGLISH)
 
-        fun getCurrentDateStr(): String {
+        fun getCurrentDateStr(cal: Calendar): String {
             return dateFormated
-                .format(Calendar.getInstance().timeInMillis)
+                .format(cal.time)
+        }
 
+        fun getDayOfWeekStr(cal: Calendar): String {
+           return dayOfWkFmt.format(cal.timeInMillis)
         }
     }
 }
