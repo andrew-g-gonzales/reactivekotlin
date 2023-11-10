@@ -24,12 +24,8 @@ dependencies {
 	implementation("io.projectreactor.kotlin:reactor-kotlin-extensions")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor")
-	implementation("com.squareup.okhttp3:okhttp:4.11.0")
-	implementation("com.google.code.gson:gson:2.8.9")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("io.projectreactor:reactor-test")
-
-
 }
 
 tasks.withType<KotlinCompile> {
