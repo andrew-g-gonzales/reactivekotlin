@@ -13,7 +13,6 @@ class DateUtil {
             return dateFormated
                 .format(cal.time)
         }
-
         fun getDayOfWeekStr(cal: Calendar): String {
            return dayOfWkFmt.format(cal.timeInMillis)
         }
