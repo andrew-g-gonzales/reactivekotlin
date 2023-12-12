@@ -1,4 +1,4 @@
-package com.andgonz.reactiveKotlin.utils
+package com.andgonz.reactivekotlin.utils
 
 
 import java.text.SimpleDateFormat

@@ -1,7 +1,7 @@
-package com.andgonz.reactiveKotlin.controllers
+package com.andgonz.reactivekotlin.controllers
 
-import com.andgonz.reactiveKotlin.models.WeatherForecast
-import com.andgonz.reactiveKotlin.services.WeatherForecastService
+import com.andgonz.reactivekotlin.models.WeatherForecast
+import com.andgonz.reactivekotlin.services.WeatherForecastService
 import kotlinx.coroutines.reactive.awaitFirst
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.http.MediaType

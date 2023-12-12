@@ -1,4 +1,4 @@
-package com.andgonz.reactiveKotlin
+package com.andgonz.reactivekotlin
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

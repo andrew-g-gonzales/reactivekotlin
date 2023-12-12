@@ -1,0 +1,30 @@
+
+
+management:
+  endpoints:
+    jmx:
+      exposure:
+        include: health,info
+      metrics:
+        export:
+          domain: "com.andgonz.reactivekotlin"
+    web:
+      exposure:
+        include: health,env,beans,conditions,mappings,loggers,metrics,caches,configprops,flyway,info,startup,threaddump,heapdump,logfile,prometheus
+  endpoint:
+    health:
+      show-details: always
+    env:
+      show-values: always
+  metrics:
+    export:
+      influx:
+        enabled: false
+  info:
+    java:
+      enabled: true
+    env:
+      enabled: true
+
+
+

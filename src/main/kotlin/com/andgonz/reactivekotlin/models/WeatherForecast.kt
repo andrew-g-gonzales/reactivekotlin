@@ -1,4 +1,4 @@
-package com.andgonz.reactiveKotlin.models
+package com.andgonz.reactivekotlin.models
 
 data class WeatherForecast(
     val day_name: String,

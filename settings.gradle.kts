@@ -1,1 +1,1 @@
-rootProject.name = "reactiveKotlin"
+rootProject.name = "reactivekotlin"

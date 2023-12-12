@@ -1,8 +1,8 @@
-package com.andgonz.reactiveKotlin.services
+package com.andgonz.reactivekotlin.services
 
-import com.andgonz.reactiveKotlin.models.WeatherForecast
-import com.andgonz.reactiveKotlin.utils.DateUtil.Companion.getCurrentDateStr
-import com.andgonz.reactiveKotlin.utils.DateUtil.Companion.getDayOfWeekStr
+import com.andgonz.reactivekotlin.models.WeatherForecast
+import com.andgonz.reactivekotlin.utils.DateUtil.Companion.getCurrentDateStr
+import com.andgonz.reactivekotlin.utils.DateUtil.Companion.getDayOfWeekStr
 import kotlinx.coroutines.reactive.awaitFirst
 import org.springframework.core.ParameterizedTypeReference
 import org.springframework.stereotype.Component

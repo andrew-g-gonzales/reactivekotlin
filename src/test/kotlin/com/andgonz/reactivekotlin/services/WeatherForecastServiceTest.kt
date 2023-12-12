@@ -1,9 +1,7 @@
-package com.andgonz.reactiveKotlin.services
+package com.andgonz.reactivekotlin.services
 
-import kotlinx.coroutines.launch
 import kotlinx.coroutines.reactive.awaitFirst
 import kotlinx.coroutines.runBlocking
-import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
 
 class WeatherForecastServiceTest {
